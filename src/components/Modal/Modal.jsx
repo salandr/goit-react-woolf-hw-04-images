@@ -6,12 +6,6 @@ import { Overlay, StyledModal } from './Modal.styled';
 const portal = document.getElementById('portal');
 
 const Modal = ({ closeModal, imgSrc, label }) => {
-  const onEscButtonClose = e => {
-    if (e.code === 'Escape') {
-      closeModal();
-    }
-  };
-
   const onOverlayClick = e => {
     if (e.target === e.currentTarget) {
       closeModal();
