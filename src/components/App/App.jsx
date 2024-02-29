@@ -5,7 +5,6 @@ import Loader from 'components/Loader';
 import SearchBar from 'components/SearchBar';
 import { PER_PAGE, getImages } from 'services/api';
 import { AppWrapper } from './App.styled';
-import { Component } from 'react';
 import { useState, useEffect } from 'react';
 
 const App = () => {
@@ -85,5 +84,3 @@ const App = () => {
 };
 
 export default App;
-
-// fix
